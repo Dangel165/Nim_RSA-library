@@ -1,7 +1,7 @@
 # Package
 
 version       = "1.0.0"
-author        = "NimRSA Team"
+author        = "Key Root Team"
 description   = "Enterprise-grade RSA encryption library"
 license       = "MIT"
 srcDir        = "src"
@@ -24,3 +24,4 @@ task enterprise, "Run enterprise example":
 
 task benchmark, "Run performance benchmarks":
   exec "nim c -d:release -r tests/benchmark.nim"
+
