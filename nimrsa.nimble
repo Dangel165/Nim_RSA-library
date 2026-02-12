@@ -2,7 +2,7 @@
 
 version       = "1.0.0"
 author        = "Dangel"
-description   = "Enterprise-grade RSA encryption library"
+description   = "RSA encryption library"
 license       = "MIT"
 srcDir        = "src"
 skipDirs      = @["tests", "examples", "tools"]
@@ -24,5 +24,6 @@ task enterprise, "Run enterprise example":
 
 task benchmark, "Run performance benchmarks":
   exec "nim c -d:release -r tests/benchmark.nim"
+
 
 
