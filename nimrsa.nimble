@@ -1,6 +1,6 @@
 # Package
 
-version       = "2.0.0"
+version       = "1.0.0"
 author        = "NimRSA Team"
 description   = "Enterprise-grade RSA encryption library"
 license       = "MIT"
